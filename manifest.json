@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "NoStandup",
+  "description": "Removes standup comedy from the default comedy category on Netflix. ",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://movies.netflix.com/WiGenre*"],
+      "css": ["jquery.switch.css"],
+      "js": ["jquery-1.10.2.min.js","jquery.switch.min.js", "NoStandup.js"]
+     
+    }
+  ],
+  "web_accessible_resources": [
+    "jquery.switch.png"
+  ]
+}
