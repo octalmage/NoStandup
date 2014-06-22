@@ -15,4 +15,5 @@ Expand the developer dropdown menu and click "Load Unpacked Extension".
 
 Navigate to downloaded folder.
 
-The extension has been installed!  
+The extension has been installed!
+
